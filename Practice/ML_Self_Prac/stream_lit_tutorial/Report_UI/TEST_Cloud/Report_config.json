@@ -1,0 +1,37 @@
+{
+    "Attrax":{
+        "Activity_Status_Code":["Active", "Prelaunch"],
+        "Market_of_domicile":["Ireland", "United_Kingdom"],
+        "Asset_Class":["Bond", "Equity", "Balanced"]
+    },
+    "Caixa":{
+        "AS_OF_DATE":"SAME"
+    },
+    "7IM Funds Depot":{
+        "Activity_Status_Code":["Active", "Prelaunch"],
+        "Market_of_domicile":["Ireland", "United_Kingdom"],
+        "Investment_Status":["Bond", "Equity", "Balanced"]
+    },
+    "BBVA ETF Basic Points Final":{
+        "Activity_Status_Code":["Active", "Prelaunch"],
+        "Market_of_domicile":["Ireland", "United_Kingdom"],
+        "Asset_Class":["Bond", "Equity", "Balanced"]
+    },
+    "Zurich Live":{
+        "Activity_Status_Code":["Active", "Prelaunch"],
+        "Market_of_domicile":["Ireland", "United_Kingdom"],
+        "Asset_Class":["Bond", "Equity", "Balanced"]
+    },
+    "WM Daten":{
+        "AS_OF_DATE":"SAME"
+    },
+    "Openfunds ETF Listings":{
+        "AS_OF_DATE":"SAME"
+    },
+    "Cofunds - Live":{
+        "AS_OF_DATE":"SAME"
+    },
+    "Attribution":{
+        "AS_OF_DATE":"SAME"
+    }
+}
