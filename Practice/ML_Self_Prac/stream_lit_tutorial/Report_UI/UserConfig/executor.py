@@ -12,7 +12,7 @@ class Setup:
 
     def check_local_config_exists(self):
         try:
-            config_file = joblib.load("D:\Version_Controlled\Code_Base\Practice\ML_Self_Prac\stream_lit_tutorial\Report_UI\UserConfig\user_config.joblib")
+            config_file = joblib.load(r"D:\Version_Controlled\Code_Base\Practice\ML_Self_Prac\stream_lit_tutorial\Report_UI\UserConfig\user_config.joblib")
         except Exception as e:
             print(e)
             raise
@@ -40,5 +40,5 @@ if __name__ == '__main__':
     # config_obj = fetch_local_config()
     # if not config_obj:
     #     pass
-    sys.argv = ["streamlit", "run", "D:\Version_Controlled\Code_Base\Practice\ML_Self_Prac\stream_lit_tutorial\Report_UI\UserConfig\configuration.py"]
+    sys.argv = ["streamlit", "run", r"D:\Version_Controlled\Code_Base\Practice\ML_Self_Prac\stream_lit_tutorial\Report_UI\UserConfig\configuration.py"]
     sys.exit(stcli.main())
